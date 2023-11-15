@@ -1,0 +1,8 @@
+uuid: aafac4de-c4d7-4534-9b73-a05224920f9c
+langcode: fr
+status: true
+dependencies: {  }
+name: Continents
+vid: continents
+description: 'les 5 continents'
+weight: 0

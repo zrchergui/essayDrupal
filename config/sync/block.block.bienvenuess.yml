@@ -1,0 +1,30 @@
+uuid: 1b9f4d23-671f-44b6-8e23-3a5ef34b3e5d
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6c73a0a7-f4a4-4c24-b5c1-25641871c9cd'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: bienvenuess
+theme: bartik
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'block_content:6c73a0a7-f4a4-4c24-b5c1-25641871c9cd'
+settings:
+  id: 'block_content:6c73a0a7-f4a4-4c24-b5c1-25641871c9cd'
+  label: 'Bienvenue §'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

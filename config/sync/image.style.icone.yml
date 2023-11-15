@@ -1,0 +1,15 @@
+uuid: ab47d4ce-b6bc-4172-9e7e-0c728794430a
+langcode: fr
+status: true
+dependencies: {  }
+name: icone
+label: Icone
+effects:
+  864c614a-cb20-43a1-aafe-8f0275d31fec:
+    uuid: 864c614a-cb20-43a1-aafe-8f0275d31fec
+    id: image_scale
+    weight: 1
+    data:
+      width: 50
+      height: 50
+      upscale: false

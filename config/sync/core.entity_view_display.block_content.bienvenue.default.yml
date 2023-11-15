@@ -1,0 +1,23 @@
+uuid: bce6b2e7-42d2-41c9-98fe-7ada9a0d84f0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.bienvenue
+    - field.field.block_content.bienvenue.body
+  module:
+    - text
+id: block_content.bienvenue.default
+targetEntityType: block_content
+bundle: bienvenue
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

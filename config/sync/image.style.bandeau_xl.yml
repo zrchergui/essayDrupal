@@ -1,0 +1,15 @@
+uuid: 14ea05c5-9b40-4a73-ad57-7745bb3210d8
+langcode: fr
+status: true
+dependencies: {  }
+name: bandeau_xl
+label: 'bandeau xl (1200x275)'
+effects:
+  b614f404-9f71-4ab7-9bf5-5976ad1246f6:
+    uuid: b614f404-9f71-4ab7-9bf5-5976ad1246f6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 275
+      anchor: center-center

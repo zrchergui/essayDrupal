@@ -1,0 +1,20 @@
+uuid: ceac29c0-ea40-4134-99ee-255c6ea2bc78
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - panache
+id: contenudelapageprincipale
+theme: panache
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

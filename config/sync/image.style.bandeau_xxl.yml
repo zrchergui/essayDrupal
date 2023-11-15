@@ -1,0 +1,15 @@
+uuid: a9b869f8-520d-44f6-a886-de366ea2bb28
+langcode: fr
+status: true
+dependencies: {  }
+name: bandeau_xxl
+label: XXL
+effects:
+  e202300f-5399-4ed5-994a-93f04ea3c3ec:
+    uuid: e202300f-5399-4ed5-994a-93f04ea3c3ec
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 2000
+      height: 285
+      anchor: center-center

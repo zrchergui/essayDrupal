@@ -1,0 +1,13 @@
+uuid: ef9491f7-aad1-411b-9c79-ae427c2b1ae3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: N0RDBTqiK4dKoN4p4oW2j0SGWycdHyALUe9M-Ofp89U
+id: node_promote_action
+label: 'Promouvoir le contenu en page d''accueil'
+type: node
+plugin: node_promote_action
+configuration: {  }

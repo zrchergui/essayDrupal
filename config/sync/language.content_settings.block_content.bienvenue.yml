@@ -1,0 +1,11 @@
+uuid: dde2898d-015e-44ca-a562-cc329034fd70
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.bienvenue
+id: block_content.bienvenue
+target_entity_type_id: block_content
+target_bundle: bienvenue
+default_langcode: site_default
+language_alterable: false

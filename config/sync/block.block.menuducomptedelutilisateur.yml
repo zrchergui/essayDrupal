@@ -1,0 +1,25 @@
+uuid: 0139e100-ff80-415f-bd10-9d46a1c35222
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - panache
+id: menuducomptedelutilisateur
+theme: panache
+region: footer
+weight: -3
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Menu du compte de l''utilisateur'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

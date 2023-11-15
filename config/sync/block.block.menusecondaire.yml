@@ -1,0 +1,25 @@
+uuid: a40075fa-4288-47b6-baba-430edaa33588
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.menu-secondaire
+  module:
+    - system
+  theme:
+    - panache
+id: menusecondaire
+theme: panache
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:menu-secondaire'
+settings:
+  id: 'system_menu_block:menu-secondaire'
+  label: 'Menu secondaire'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

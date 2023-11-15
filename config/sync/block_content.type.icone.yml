@@ -1,0 +1,8 @@
+uuid: 8bc2c50a-c23c-4730-9c5b-1c98465643ad
+langcode: fr
+status: true
+dependencies: {  }
+id: icone
+label: Icone
+revision: 0
+description: 'Une Icone'

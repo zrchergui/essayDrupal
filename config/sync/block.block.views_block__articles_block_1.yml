@@ -1,0 +1,29 @@
+uuid: 96cd3543-4aed-42b6-9bd7-d430b361fdcb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.articles
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__articles_block_1
+theme: bartik
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'views_block:articles-block_1'
+settings:
+  id: 'views_block:articles-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /recettes

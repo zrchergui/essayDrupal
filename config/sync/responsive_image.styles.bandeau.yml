@@ -1,0 +1,27 @@
+uuid: 7f063e81-4107-4ed7-8796-727d71dbc632
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.bandeau_ism
+    - image.style.bandeau_lg
+    - image.style.bandeau_md
+    - image.style.bandeau_sm
+    - image.style.bandeau_xl
+id: bandeau
+label: Bandeau
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: '(min-width: 2000px) 100vw, (min-width: 1200px) 2000px, (min-width:992px) 1200px, (min-width: 768px) 992px, (min-width: 576px) 768px, (min-width: 325px) 576px'
+      sizes_image_styles:
+        - bandeau_ism
+        - bandeau_lg
+        - bandeau_md
+        - bandeau_sm
+        - bandeau_xl
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: bandeau_ism

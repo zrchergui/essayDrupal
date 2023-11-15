@@ -1,0 +1,25 @@
+uuid: c0c7a92f-944e-4e2c-8fa6-e8ef288cdf2e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - panache
+id: navigationprincipale
+theme: panache
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

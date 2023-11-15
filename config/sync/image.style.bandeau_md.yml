@@ -1,0 +1,15 @@
+uuid: 2fb8d641-14e3-4da2-8498-8777b5d0d75c
+langcode: fr
+status: true
+dependencies: {  }
+name: bandeau_md
+label: 'bandeau md (768x250)'
+effects:
+  1d266062-0194-493c-bd12-049419ff2915:
+    uuid: 1d266062-0194-493c-bd12-049419ff2915
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 250
+      anchor: center-center

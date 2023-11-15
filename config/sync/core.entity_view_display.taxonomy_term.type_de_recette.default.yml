@@ -1,0 +1,34 @@
+uuid: dc7e9695-24d4-4ee6-8625-263cb83eb26a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.type_de_recette.field_icone
+    - image.style.icone
+    - taxonomy.vocabulary.type_de_recette
+  module:
+    - media
+    - smart_title
+third_party_settings:
+  smart_title:
+    enabled: true
+id: taxonomy_term.type_de_recette.default
+targetEntityType: taxonomy_term
+bundle: type_de_recette
+mode: default
+content:
+  field_icone:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: icone
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  description: true
+  langcode: true
+  smart_title: true

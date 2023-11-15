@@ -1,0 +1,8 @@
+uuid: 7c3e6c24-8783-47c8-b462-85d33ba41374
+langcode: fr
+status: true
+dependencies: {  }
+id: menu-secondaire
+label: 'Menu secondaire'
+description: 'Menu secondaire avec des lien annexes'
+locked: false

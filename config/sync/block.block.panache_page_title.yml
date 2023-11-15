@@ -1,0 +1,20 @@
+uuid: a6cc7e11-948f-4864-bc11-f1680efd98d7
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - panache
+_core:
+  default_config_hash: mukBr5wPmi6W8VejqZddAKxlR_1RdZLcDoG0USVyQiE
+id: panache_page_title
+theme: panache
+region: banner_slideshow
+weight: -1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  label_display: '0'
+  provider: core
+visibility: {  }

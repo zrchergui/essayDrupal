@@ -1,0 +1,11 @@
+uuid: 9789c588-2fa3-4fbc-8369-c3fc186f3143
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.icone
+id: block_content.icone
+target_entity_type_id: block_content
+target_bundle: icone
+default_langcode: site_default
+language_alterable: false

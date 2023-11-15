@@ -1,0 +1,72 @@
+uuid: 09291dda-3ac9-4cf8-8517-117b5c284dca
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recette_.field_continent
+    - field.field.node.recette_.field_difficulte
+    - field.field.node.recette_.field_documents
+    - field.field.node.recette_.field_image
+    - field.field.node.recette_.field_ingredient
+    - field.field.node.recette_.field_instruction
+    - field.field.node.recette_.field_media
+    - field.field.node.recette_.field_nombre_cuis
+    - field.field.node.recette_.field_portions
+    - field.field.node.recette_.field_resume
+    - field.field.node.recette_.field_tags
+    - field.field.node.recette_.field_type_de_recette
+    - image.style.medium
+    - node.type.recette_
+  module:
+    - image
+    - text
+    - user
+id: node.recette_.teaser
+targetEntityType: node
+bundle: recette_
+mode: teaser
+content:
+  field_continent:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_resume:
+    type: text_trimmed
+    label: above
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  field_difficulte: true
+  field_documents: true
+  field_ingredient: true
+  field_instruction: true
+  field_media: true
+  field_nombre_cuis: true
+  field_portions: true
+  field_tags: true
+  field_type_de_recette: true
+  langcode: true

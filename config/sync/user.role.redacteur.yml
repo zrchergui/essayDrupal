@@ -1,0 +1,19 @@
+uuid: a370933a-ef23-4465-8cd9-7fe4c23578ff
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - node
+    - system
+    - toolbar
+id: redacteur
+label: rédacteur
+weight: 4
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'create article content'
+  - 'edit own article content'
+  - 'view the administration theme'

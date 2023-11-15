@@ -1,0 +1,35 @@
+uuid: af1c9c24-53c3-4934-acb9-301e2b5355a3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media
+    - media.type.audio
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - node.type.recette_
+id: node.recette_.field_media
+field_name: field_media
+entity_type: node
+bundle: recette_
+label: Média
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      audio: audio
+      image: image
+      video: video
+      remote_video: remote_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: audio
+field_type: entity_reference

@@ -1,0 +1,29 @@
+uuid: 8b518c16-3a48-4154-a09a-2f4c6824ae33
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_documents
+    - media.type.document
+    - node.type.recette_
+id: node.recette_.field_documents
+field_name: field_documents
+entity_type: node
+bundle: recette_
+label: Documents
+description: 'Champs de type Média permettant d''inclure des documents PDF ou Word.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

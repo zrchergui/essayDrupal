@@ -1,0 +1,21 @@
+uuid: f7ae18a7-e6d9-4089-a14f-021c44411750
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_difficulte
+    - node.type.recette_
+  module:
+    - options
+id: node.recette_.field_difficulte
+field_name: field_difficulte
+entity_type: node
+bundle: recette_
+label: Difficulté
+description: 'Sélectionner un niveau de difficulté pour cette recette '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

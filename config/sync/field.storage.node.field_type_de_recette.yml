@@ -1,0 +1,20 @@
+uuid: 5caf0d88-312f-4f48-af98-12785416091f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_type_de_recette
+field_name: field_type_de_recette
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 5
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

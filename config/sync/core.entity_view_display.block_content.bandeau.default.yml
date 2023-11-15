@@ -1,0 +1,26 @@
+uuid: f810f7c8-83cc-4563-9aca-a15c8bbf42ff
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.bandeau
+    - field.field.block_content.bandeau.field_bandeau
+    - responsive_image.styles.bandeau
+  module:
+    - responsive_image
+id: block_content.bandeau.default
+targetEntityType: block_content
+bundle: bandeau
+mode: default
+content:
+  field_bandeau:
+    type: responsive_image
+    label: hidden
+    settings:
+      responsive_image_style: bandeau
+      image_link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

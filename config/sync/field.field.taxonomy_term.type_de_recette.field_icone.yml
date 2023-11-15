@@ -1,0 +1,29 @@
+uuid: f87b6f83-edb4-4656-9291-26466dd04268
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_icone
+    - media.type.image
+    - taxonomy.vocabulary.type_de_recette
+id: taxonomy_term.type_de_recette.field_icone
+field_name: field_icone
+entity_type: taxonomy_term
+bundle: type_de_recette
+label: Icône
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: bb679728-9124-436e-9fa0-518851edb1be
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_portions
+    - node.type.recette_
+id: node.recette_.field_portions
+field_name: field_portions
+entity_type: node
+bundle: recette_
+label: Portions
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ' personnes'
+field_type: integer

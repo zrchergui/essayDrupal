@@ -1,0 +1,15 @@
+uuid: 5f800a0a-68bf-4e6f-bc23-ae46dad02361
+langcode: fr
+status: true
+dependencies: {  }
+name: bandeau_ism
+label: 'bandeau ism (360x150)'
+effects:
+  5d942a6e-5204-4b4e-854a-34c6556a1e16:
+    uuid: 5d942a6e-5204-4b4e-854a-34c6556a1e16
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 360
+      height: 150
+      anchor: center-center

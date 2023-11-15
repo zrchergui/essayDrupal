@@ -1,0 +1,23 @@
+uuid: c7487848-d9b5-4e25-bf96-214e99c4d64d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resume
+    - node.type.recette_
+  module:
+    - text
+id: node.recette_.field_resume
+field_name: field_resume
+entity_type: node
+bundle: recette_
+label: Résumé
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

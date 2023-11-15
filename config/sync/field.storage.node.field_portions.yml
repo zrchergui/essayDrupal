@@ -1,0 +1,20 @@
+uuid: 0a0ed3ad-d60b-41cc-871e-0d2cb2bf1270
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_portions
+field_name: field_portions
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

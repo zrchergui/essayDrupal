@@ -1,0 +1,17 @@
+uuid: 137c1336-e071-498f-b52a-6d64822c67a1
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: recette
+type: recette_
+description: 'c''est une recette '
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: true

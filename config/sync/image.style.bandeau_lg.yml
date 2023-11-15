@@ -1,0 +1,15 @@
+uuid: f3bc7722-3ef2-466d-9423-abf7de21729f
+langcode: fr
+status: true
+dependencies: {  }
+name: bandeau_lg
+label: 'bandeau lg (992x260)'
+effects:
+  2393f5c4-3a9e-4083-b435-de814ac53520:
+    uuid: 2393f5c4-3a9e-4083-b435-de814ac53520
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 992
+      height: 260
+      anchor: center-center

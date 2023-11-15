@@ -1,0 +1,29 @@
+uuid: 9d9a6408-6132-4f19-b771-96b2b3d3b4df
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_continent
+    - node.type.recette_
+    - taxonomy.vocabulary.continents
+id: node.recette_.field_continent
+field_name: field_continent
+entity_type: node
+bundle: recette_
+label: Continent
+description: 'Veuillez cocher les continent concerné par la recette '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      continents: continents
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
